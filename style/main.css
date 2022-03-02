@@ -18,3 +18,20 @@
   width: 155px;
   margin-top: 10px;
 }
+
+.buttons {
+  font-family: var(--font-family);
+  padding: 10px auto 13px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: 10px auto 13px auto;
+  align-items: center;
+  list-style: none;
+}
+
+.main_button {
+  font-family: var(--font-family);
+  color: #4a4a4a;
+  display: flex;
+  text-align: 20px;
+}
