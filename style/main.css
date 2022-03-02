@@ -69,14 +69,19 @@
   .header {
     display: flex;
     flex-direction: row;
-    /*width: 100vw;*/
+    width: 100vw;
     background-color: #ffffff;
     justify-content: space-around;
+    padding: auto 30px;
     /*margin-left: 30px;*/
+  }
+  .logo_image {
+    margin: 20px;
   }
   .buttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
+    margin: auto 30px;
   }
 }
