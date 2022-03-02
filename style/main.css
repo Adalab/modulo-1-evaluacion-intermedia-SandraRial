@@ -69,11 +69,10 @@
   .header {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 98%;
     background-color: #ffffff;
-    justify-content: space-around;
-    padding: auto 30px;
-    /*margin-left: 30px;*/
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
   }
   .logo_image {
     margin: 20px;
