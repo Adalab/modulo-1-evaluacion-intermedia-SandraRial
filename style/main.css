@@ -21,10 +21,10 @@
 
 .buttons {
   font-family: var(--font-family);
-  padding: 10px auto 13px auto;
+  margin: 10px auto 13px auto;
   display: flex;
   flex-direction: row;
-  justify-content: 10px auto 13px auto;
+  /*justify-content: 10px auto 13px auto;*/
   align-items: center;
   list-style: none;
 }
@@ -33,10 +33,15 @@
   font-family: var(--font-family);
   color: #4a4a4a;
   display: flex;
-  text-align: 20px;
+  /*text-align: 20px;*/
   text-decoration: none;
 }
-
+.main_button_blog {
+  font-family: var(--font-family);
+  color: #4a4a4a;
+  margin-right: 20px;
+  text-decoration: none;
+}
 .main {
   background-color: #3cdbc0;
   height: 100vh;
@@ -57,4 +62,21 @@
   font-family: var(--font-family);
   color: #ffffff;
   font-size: 40px;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    /*width: 100vw;*/
+    background-color: #ffffff;
+    justify-content: space-around;
+    /*margin-left: 30px;*/
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
