@@ -34,4 +34,27 @@
   color: #4a4a4a;
   display: flex;
   text-align: 20px;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #3cdbc0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.box_item {
+  font-family: var(--font-family);
+  color: #ffffff;
+  font-size: 40px;
 }
