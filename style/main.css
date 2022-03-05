@@ -26,6 +26,7 @@
   flex-direction: row;
   align-items: center;
   list-style: none;
+  text-transform: uppercase;
 }
 
 .main_button {
