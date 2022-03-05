@@ -21,7 +21,8 @@
 
 .buttons {
   font-family: var(--font-family);
-  margin: 10px auto 13px auto;
+  margin: 10px 13px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -46,23 +47,24 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
+  font-weight: bold;
 }
 
-.box {
+/* .box {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   font-weight: bold;
-}
+} */
 
 .box_item {
   font-family: var(--font-family);
   color: #ffffff;
   font-size: 40px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 @media all and (min-width: 768px) {
